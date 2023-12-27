@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+
+    <video src="assets/spinning_coin (1080p).mp4" autoplay loop muted class="video-moeda"></video>
+
+    <main class="menu-converter">
+        <p>Converter <b>de</b></p>
+        <div>
+            <label>
+                <select class="currency-select-one">
+                    <option value="real">R$ Real brasileiro</option>
+                    <option value="dolar">US$ Dólar americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">GBP Libra</option>
+                    <option value="rupia-indiana">₹ Rupia Indiana</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
+                </select>
+            </label>
+        </div>
+
+        <p>Converter <b>para</b></p>
+
+        <div>
+            <label>
+                <select class="currency-select-two">
+                    <option value="real">R$ Real brasileiro</option>
+                    <option value="dolar">US$ Dólar americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">GBP Libra</option>
+                    <option value="rupia-indiana">₹ Rupia Indiana</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
+                </select>
+            </label>
+        </div>
+
+        <p><b>Valor</b></p>
+        <input class="input-currency" placeholder="R$ 10.000,00" type="number">
+        <button class="convert-button">Converter</button>
+
+
+        <div>
+            <section class="currency-value-one">
+                <img src="./assets/real.png" alt="Real" class="currency-img-one">
+                <p class="currency-name-one">Real</p>
+                <p class="currency-value-to-convert">R$ 0.0</p>
+        </div>
+
+        <div>
+            <img src="assets/seta.png" alt="Seta-para-baixo" class="seta">
+        </div>
+
+        <div>
+            <img src="assets/dolar.png" alt="dolar" class="currency-img-two">
+            <p class="currency-name-two">Dólar americano</p>
+            <p class="currency-value">US$ 0.0</p>
+            </section>
+        </div>
+
+</body>
+
+<script src="script.js"></script>
+
+
+
+</html>

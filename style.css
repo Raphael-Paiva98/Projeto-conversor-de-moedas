@@ -1,0 +1,174 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+
+ }
+
+ body {
+     align-items: center;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-top: 30px;
+
+ }
+
+ .menu-converter {
+     background-size: 375px 712px !important;
+     border-radius: 20px;
+     padding: 10px;
+     background: #D3D3D3;
+
+ }
+
+ .video-moeda {
+
+     position: fixed;
+     margin-top: 0px;
+     z-index: -1;
+     background-size: cover;
+
+ }
+
+ p {
+     margin-top: 10px;
+     margin-left: 10px;
+     color: #777;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 18px;
+ }
+
+ b {
+     color: #777;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+
+ }
+
+ select {
+     width: 327px;
+     height: 28px;
+     margin-left: 10px;
+     border-radius: 5px;
+     border: 1px solid #BBB;
+     outline: none;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+     color: #555;
+ }
+
+ input {
+     width: 327px;
+     height: 28px;
+     margin-left: 10px;
+     border-radius: 5px;
+     border: 1px solid #BBB;
+     outline: none;
+     color: #555;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+
+ }
+
+ button {
+     width: 327px;
+     height: 34px;
+     position: absolute;
+     top: 230px;
+     margin-left: -328px;
+     border-radius: 5px;
+     outline: none;
+     border: none;
+     color: #555;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+     justify-content: center;
+     background: #A9A9A9;
+
+ }
+
+ button:hover {
+     opacity: 0.8;
+
+ }
+
+ button:active {
+     opacity: 0.5;
+
+ }
+ 
+.currency-value-one{
+margin-left: 140px;
+     margin-top: 70px;
+    
+ }
+ .seta {
+    margin-left: 150px;
+    margin-top: 15px;
+ }
+
+
+
+ .currency-name-one {
+     color: #777;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 18px;
+     margin-top: -7px;
+ }
+
+ .currency-value-to-convert {
+     color: #555;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+ }
+
+ .currency-img-two {
+    margin-left: 140px;
+     margin-top: 10px;
+ }
+
+ .currency-name-one{
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+
+ .currency-value{
+    color: #555;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+     margin-left: 140px;
+ }
+
+ .currency-name-two{
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-left: 140px;
+ }
